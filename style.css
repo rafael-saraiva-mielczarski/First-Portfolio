@@ -1,5 +1,6 @@
 body{
     background: black;
+    font-family: 'Space Mono', monospace;
 }
 
 header{
@@ -9,7 +10,7 @@ header{
 
 .caixa{
     position: relative;
-    width: 940px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -32,7 +33,7 @@ nav{
 
 nav a{
     font-size: 26px;
-    font-family:Verdana;
+    font-family: 'Space Mono', monospace;
     color: rgb(0, 225, 255);
     text-align: right;
     padding: 5px 5px;
@@ -40,18 +41,17 @@ nav a{
     border: 2px solid rgb(24, 255, 43);
     border-radius: 10px;*/
 }
-nav a:hover{ /* */
-    text-decoration: underline;
-    font-size: 30px;
-    transition: 1s;
+nav a:hover{ 
+    transform: scale(1,2);
     cursor: pointer;
 }
 
 
 .quemsou{
     background: #000000;
+    margin: 0 auto;
 }
-h2{
+h2, h3, h5{
     font-size: 36px;
     font-weight: bold;
     color: rgb(250, 0, 125);
@@ -82,38 +82,61 @@ h2{
 
 .projetos{
     background:#000000;
+    margin: 0 auto;
 }
 
-h3{
-    font-size: 36px;
-    font-weight: bold;
-    color: rgb(250, 0, 125);
-    padding: 20px 20px; 
-    text-align: center;
-    clear: right;
-}
+
 
 .p-h3{
     font-size: 20px;
     color:white;
-    display: inline-block ;
+    display: inline-block;
     vertical-align:top;
-    padding: 10px 10px 15px 10px;  /* top, right, bottom, left */
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 20px;
     text-align: center;
+    width: 1200px;
 
+}
+
+.escolha-projetos{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h4{
+    color:rgb(0, 225, 255);
+    text-align: left;
+    margin-left: 15px;
+
+}
+
+.calculadora{
+    margin-left: 15px;
+    box-sizing: border-box; 
+    border: 5px solid rgb(255, 255, 255); /* largura, tipo da linha e cor*/;
+    border-radius: 50px;
+    box-shadow: 1px 1px 20px 0 rgb(102, 96, 96);;
+    width: 280px;
+
+}
+.descricao-calc{
+    color:white;
+    font-size: 18px;
+    text-align: center;
+    width: 350px;
+    padding: 20px 0;
+    margin-left: -30px;
+}
+
+.calculadora:hover{
+    opacity: 50%;
+    cursor: pointer;
 }
 
 footer{
     text-align: center;
     background:#161616;
-}
-h4{
-    font-size: 36px;
-    font-weight: bold;
-    color: rgb(250, 0, 125);
-    padding: 20px 20px; 
 }
 
 .copyright{
