@@ -42,7 +42,8 @@ nav a{
     border-radius: 10px;*/
 }
 nav a:hover{ 
-    transform: scale(1,2);
+    font-size: 30px;
+    transition: 1s all;
     cursor: pointer;
 }
 
@@ -51,14 +52,12 @@ nav a:hover{
     background: #000000;
     margin: 0 auto;
 }
-h2, h3, h5{
+h2, h3, h6{
     font-size: 36px;
     font-weight: bold;
     color: rgb(250, 0, 125);
-    padding: 30px 20px 20px 0;
-    display: block;
     text-align: center;
-    margin-bottom: 20px;
+    margin: 10px 0;
 
 }
 .fotoperfil{
@@ -90,26 +89,27 @@ h2, h3, h5{
 .p-h3{
     font-size: 20px;
     color:white;
-    display: inline-block;
+    /* display: inline-block; */
     vertical-align:top;
-    margin-left: 30px;
-    margin-right: 20px;
     text-align: center;
     width: 1200px;
+    margin-left: 55px;
 
 }
 
 .escolha-projetos{
     width: 1200px;
     margin: 0 auto;
+
 }
 
-h4{
+h4{ /* Calculadora */
     font-size: 34px;
     color:rgb(0, 225, 255);
-    text-align: left;
-    margin-left: 45px;
-    padding: 20px 0;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 65px;
+
 }
 
 .calculadora{
@@ -119,20 +119,64 @@ h4{
     border-radius: 50px;
     box-shadow: 1px 1px 20px 0 rgb(102, 96, 96);;
     width: 280px;
+    position: relative;
+    left: 100px;
+    clear: right;
 
 }
 .descricao-calc{
     color:white;
     font-size: 18px;
     text-align: center;
-    width: 350px;
-    padding: 20px 0;
-    margin-left: -30px;
+    width: 700px;
+    margin: 0 10px;
+    margin-right: 10px;
+    position: relative;
+    right: 40px;
+    top: 50px;
+    float:right;
+
 }
 
 .calculadora:hover{
     opacity: 50%;
     cursor: pointer;
+}
+
+h5{ /* Exercicios Java */
+    font-family: 'Space Mono', monospace;
+    font-size: 34px;
+    color:rgb(0, 225, 255);
+    text-align: center;
+
+}
+
+.java{
+    margin-left: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box; 
+    border: 5px solid rgb(255, 255, 255); /* largura, tipo da linha e cor*/;
+    border-radius: 50px;
+    box-shadow: 1px 1px 20px 0 rgb(102, 96, 96);;
+    width: 280px;
+    position: relative;
+    left: 100px;
+}
+
+.java:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+.descricao-java{
+    color:white;
+    font-size: 18px;
+    text-align: center;
+    width: 700px;
+    margin: 0 10px;
+    position: relative;
+    right: 40px;
+    top: 50px;
+    float: right;
 }
 
 footer{
