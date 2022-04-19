@@ -164,7 +164,7 @@ h5{ /* Exercicios Java */
 
 .java{
     margin-left: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     box-sizing: border-box; 
     border: 5px solid rgb(255, 255, 255); /* largura, tipo da linha e cor*/;
     border-radius: 50px;
@@ -193,16 +193,26 @@ h5{ /* Exercicios Java */
     width: 50px;
     position: relative;
     left:450px;
-    bottom:50px;
+    bottom:70px;
     border-radius: 10px;
 }
 
 footer{
     text-align: center;
     background:#161616;
+    padding: 10px 0 ;
+}
+
+.p-contatos{
+    width:1200px;
+    color: white;
+    text-align:left;
+    position:relative;
+    left: 5%;
 }
 
 .copyright{
     color: white;
     font-size: 12px;
+    margin-top: 5em;
 }
