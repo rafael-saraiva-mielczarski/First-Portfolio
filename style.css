@@ -57,7 +57,7 @@ h2, h3, h6{
     font-weight: bold;
     color: rgb(250, 0, 125);
     text-align: center;
-    margin: 10px 0;
+    margin: 20px 0;
 
 }
 .fotoperfil{
@@ -67,10 +67,10 @@ h2, h3, h6{
     border-radius: 90px;
 }
 
-.p-h2{
+.p-quemsou{
     font-size: 20px;
     color:white;
-    display: inline-block ;
+    display: inline-block;
     vertical-align:top;
     width: 65%;
     padding: 10px 7px;
@@ -86,7 +86,7 @@ h2, h3, h6{
 
 
 
-.p-h3{
+.p-projetos{
     font-size: 20px;
     color:white;
     /* display: inline-block; */
@@ -94,6 +94,7 @@ h2, h3, h6{
     text-align: center;
     width: 1200px;
     margin-left: 55px;
+    margin-bottom: 20px;
 
 }
 
@@ -107,20 +108,21 @@ h4{ /* Calculadora */
     font-size: 34px;
     color:rgb(0, 225, 255);
     text-align: center;
-    margin-top: 10px;
+    margin-top: 70px;
+    margin-bottom: 20px;
     margin-right: 65px;
 
 }
 
 .calculadora{
+    width: 280px;
+    position: relative;
+    left: 100px;
     margin-left: 15px;
     box-sizing: border-box; 
     border: 5px solid rgb(255, 255, 255); /* largura, tipo da linha e cor*/;
     border-radius: 50px;
     box-shadow: 1px 1px 20px 0 rgb(102, 96, 96);;
-    width: 280px;
-    position: relative;
-    left: 100px;
     clear: right;
 
 }
@@ -129,8 +131,6 @@ h4{ /* Calculadora */
     font-size: 18px;
     text-align: center;
     width: 700px;
-    margin: 0 10px;
-    margin-right: 10px;
     position: relative;
     right: 40px;
     top: 50px;
@@ -143,11 +143,22 @@ h4{ /* Calculadora */
     cursor: pointer;
 }
 
+.icones-calculadora{
+    width: 50px;
+    position: relative;
+    left:400px;
+    bottom:80px;
+    border-radius: 10px;
+}
+
 h5{ /* Exercicios Java */
     font-family: 'Space Mono', monospace;
     font-size: 34px;
     color:rgb(0, 225, 255);
     text-align: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-right: 70px;
 
 }
 
@@ -177,6 +188,13 @@ h5{ /* Exercicios Java */
     right: 40px;
     top: 50px;
     float: right;
+}
+.icone-java{
+    width: 50px;
+    position: relative;
+    left:450px;
+    bottom:50px;
+    border-radius: 10px;
 }
 
 footer{
